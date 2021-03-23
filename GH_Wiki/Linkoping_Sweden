@@ -1,0 +1,236 @@
+{{Linkoping Sweden/Navbar}}
+{{Linkoping Sweden/homestyle}}
+{{Linkoping Sweden/teststyleagain}}
+<html>
+<style>
+
+#homeBanner .LiuSocial{
+  position:Absolute;
+  top: 70px;
+  right: 3%;
+  list-style: none;
+  list-style-type: none;
+  width:250px;
+}
+
+#homeBanner .LiuSocial  li {
+  padding: 5px;
+  list-style: none;
+  list-style-type: none;
+  display: inline;
+}
+#homeBanner .LiuSocial  li a{
+text-decoration:none;
+}
+#homeBanner .LiuSocial  li a:hover{
+text-decoration:none;
+}
+
+#homeBanner .LiuSocial  img {
+  height: 50px;
+  border-radius:100%;
+}
+
+.HomeFacebook, .HomeInstagram, .HomeLinkln {
+  opacity: 0.3;
+  transition: all 0.5s;
+}
+
+.HomeFacebook:hover, .HomeInstagram:hover, .HomeLinkln:hover{
+  opacity: 0.7;
+}
+
+#frontfootwrap #footwrap .collablogos img {
+    width: 24%;
+    padding: 1px;
+    margin: auto;
+}
+
+
+
+#homeBanner #liuigemlogo{
+position: absolute;
+top: 70px;
+left: 5%;
+width:170px;
+}
+
+
+@media only screen
+and (max-device-width: 1000px)
+{
+#homeBanner .LiuSocial{
+  top: 25px;
+  right: 10%;
+}
+.HomeFacebook, .HomeInstagram, .HomeLinkln {
+  opacity: 1;
+}
+#homeBanner #liuigemlogo{
+top: 120px;
+}
+}
+
+</style>
+
+<body>
+
+
+
+<section id="homeBanner">
+
+<img src="https://2019.igem.org/wiki/images/3/3c/T--Linkoping_Sweden--headerframsida.png" alt="Novosite Banner" width="100%">
+
+<img id="liuigemlogo" src="https://2019.igem.org/wiki/images/4/4a/T--Linkoping_Sweden--liuigemlogo.png" alt="Liu iGEM">
+
+<ul class="LiuSocial">
+  <li class=HomeFacebook><a href="https://www.facebook.com/LiUiGEM/"><img border="0" alt="facebook" src="https://2019.igem.org/wiki/images/b/b2/T--Linkoping_Sweden--facebook.jpg">
+  </a></li>
+  <li class=HomeInstagram><a href="https://www.instagram.com/liu_igem/"><img border="0" alt="instagram" src="https://2019.igem.org/wiki/images/e/e3/T--Linkoping_Sweden--instagram.jpg" >
+  </a></li>
+  <li class=HomeLinkln><a href="https://play.acast.com/s/72a712c3-cff7-4880-a719-be80eb3397ba?fbclid=IwAR3hbk089oEGB8Q77CCUE6Y2jTjsQEtXmMIbyTcoB8YdP9V763T1xFLKhhM"><img border="0" alt="acast" src="https://2019.igem.org/wiki/images/5/55/T--Linkoping_Sweden--acast.png" >
+  </a></li>
+</ul>
+
+</section>
+
+
+
+  <img src="https://2019.igem.org/wiki/images/b/b0/T--Linkoping_Sweden--bakgrund_text.png" alt="bakgrund" style="width:100%;z-index: 10;">
+
+<div class="grupp1"> <h2> Challenge</h2> <p> According to the World Health Organization (WHO) over 300 000 people worldwide die each year due to burn injuries. Among these, the most likely victims are children under the age of four. When suffering from burn injuries the immune system becomes compromised, predisposing the injured to infections which is the biggest complication of massive wounds. After extensive burn injuries, the leading cause of death among burn patients is sepsis which originates from bacterial infections. Burns are one of the most expensive non-fatal injuries to treat and 90% of burn injuries take place in low to middle income countries. Survivors of large scale burn injuries are not only left with a major trauma but also have a highly reduced quality of life. Antoher escalating problem is increasing antibiotic resistance which not only makes eridacation of bactera difficult but also poses a threat for the future of health and medecin. Therefore, new alternatives to antibiotics for infections need to be explored.
+
+</p>
+
+
+</div>
+
+  <div class="grupp2"> <h2> Skin Barrier and Bacterial Infections</h2> <p> Injuries to the skin, such as burns, break the mechanical barrier which the skin provides. It also breaks the biological protection of the skin which produces antimicrobial agents such as fatty acids and defensins. Another protective element of our skin is the microbiome which inhibits the growth of pathogenic microorganisms. When the skin is damaged, it reveals a new place for microorganisms to grow where both external and endogenous microorganisms can settle. Our bodies are not equipped to handle bacterial growth in or under the skin and this can lead to an infection even from our own microbiome. The risk of infection persists as long as the primary barrier of the skin is absent and when there are extensive burns the exposure to pathogens will endure as long as the wound remains open. In addition, there is also a high risk for the bacteria to enter the blood system which can result in sepsis. Mortality due to bacterial infection following burn injuries has been estimated to 75% of the cause depending on the country.
+</p>
+
+</div>
+
+  <div class="grupp3"> <h2> Bacteria</h2> <p> The most common bacteria found in infected wounds are staphylococcus and streptococcus. However, other strains of bacteria and fungi that are both endogenous and non-endogenous can be found in wounds. ESKAPE is a group of pathogenic bacteria including: E. faecium, S. aureus, K. pneumoniae, A. baumannii, P. aeruginosa and Enterobacter species. These bacteria are highly associated with severe infections and has proven to easily develop strong resistance against antibiotics. In addition, ESKAPE bacteria give rise to nosocomial infections meaning that a patient can repeatedly be exposed to these bacteria during hospitalization. Multidrug resistance is one of the three largest threats to global public health, therefore it is crucial that an alternative to antibiotic treatment is developed. </p>
+</div>
+
+  <div class="grupp4"> <h2> Our Idea</h2> Our idea is to create an antimicrobial bandage that can be used as a carrier for antimicrobial agents such as peptides and enzymes. The aim of the project is to improve wound healing and prevent infections, be environmentally friendly, cost effective and ultimately decrease the use of antibiotics in order to reduce the development of antibiotic resistance.
+
+We wanted to creat a polysaccharide based bandage, and to this bandage attach a fusion protein. The fusion protein is composed of a carbohydrate binding domain (CBD) that is connected to an antimicrobial agent via a linker containing a thrombin cleavage site. When thrombin is present, it will cleave at the cleavage site and thereby release the antimicrobial agent directly to the infected wound.
+<br> </br>
+</div>
+
+
+  <div class="grupp5"> <h2> Antimicrobial Peptides</h2><p> To replace antibiotics antimicrobial peptides (AMPs) are potential candidates. They are already used in food preservation to ward off bacterial contamination. The common mechanism of AMPs is to damage the bacterial cell membrane. Therefore, they could also be used in combination with antibiotics. This mixture will lead to a higher concentration of antibiotics entering the bacteria which would decrease the amount of antibiotics needed and minimize the development of Methicillin-resistant Staphylococcus aureus (MRSA-bacteria). <br></br>
+
+We aim to use the three AMPs: LL-37 (Human), Magainin 1 (African clawed frog) and Pln1 (Lactobacillus plantarum). All of these AMPs have a broad antibacterial spectrum. LL-37 is an AMP benchmark and is antibacterial, antifungal, antiviral, antiparasitic and antibiofilm. Both Magainin 1 and Pln1 is antibacterial but Magainin 1 is also known to be antiviral.</p>
+
+
+</div>
+
+<div class="grupp6"><h2> Antimicrobial Enzymes</h2> <p>Lysins are enzymes which the bacteriophages use to release phage particles from the bacterial host. The lysins often have multiple cell wall lytic activities, such as: amidase, muramidase, glycosidase and peptidase. These enzyme mechanisms are very specific to the cell wall of the bacterial host which reduces side effects when used as antimicrobial agents. Targeting specific bacteria may have positive effects because it does not interfere with the natural microbiota. <br></br>
+
+Along with our peptides we also wanted to add the lysins as more specific enzymes for the ESKAPE-family of bacteria. With lysins specifically targeting the ESKAPE-family other non harmful bacteria and microorganisms can be preserved in the wound and on the skin. </p>
+
+</div>
+</div>
+
+
+
+
+
+<div class="section1pic2_liu">
+
+</div>
+
+
+
+
+
+</div>
+
+
+  <div class="slidecontainer">
+        <div class="slid1">
+          <img src="https://2019.igem.org/wiki/images/1/16/T--Linkoping_Sweden--ikonekolv.png" alt="Lab icon">
+          <h3>In the lab</h3>
+        <p> Our project focuses on creating cellulose wound dressings functionalized with antimicrobial agents. Read more about our idea and how we will see it done in the lab. </p>
+<button onclick="window.location.href='https://2019.igem.org/Team:Linkoping_Sweden/Description'">Read More</button>
+        </div>
+
+        <div class="slid2">
+          <img src="https://2019.igem.org/wiki/images/1/1e/T--Linkoping_Sweden--ikonhp2.png" alt="Human practicses icon">
+          <h3>Human Practices</h3>
+        <p> Public opinion is highly valued within our group. Therefore we have a human practice team that aims to reach out to other parts of the community and people within the field to raise awareness and gain knowledge.</p>
+        <button onclick="window.location.href='https://2019.igem.org/Team:Linkoping_Sweden/Human_Practices'">Read More</button>
+        </div>'
+
+        <div class="slid3">
+          <img src="https://2019.igem.org/wiki/images/3/37/T--Linkoping_Sweden--ikonteam.png" alt="Team icon">
+          <h3>The Team</h3>
+          <p>We are a group of students from the university of Linköping who have joined together to compete in internation competion in synthetic biology, iGEM.</p>
+
+          <button onclick="window.location.href='https://2019.igem.org/Team:Linkoping_Sweden/Team'">Read More</button>
+        </div>
+        <div class="slid4">
+          <img src="https://2019.igem.org/wiki/images/2/21/T--Linkoping_Sweden--iconmodel2.png" alt="Modelling icon">
+          <h3>Modelling</h3>
+          <p>Our project used antimicrobial peptides to improve upon wound dressings. The modelling team gave us more candidates of antimicrobial peptides to use on the dressings.</p>
+
+        <button onclick="window.location.href='https://2019.igem.org/Team:Linkoping_Sweden/Model'">Read More</button>
+        </div>
+      </div>
+
+<div id="frontfootwrap" style="width:80%;margin:auto;">
+</body>
+</html>
+{{Linkoping_Sweden/footer}}
+<html>
+
+<script>
+const navbarlogo = document.querySelector("#navbar2_liu");
+const navlinks = document.querySelector(".nav-links_liu")
+
+navbarlogo.addEventListener("click", ()=>{navlinks.classList.toggle("open");});
+
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides_liu");
+  var dots = document.getElementsByClassName("dot_liu");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  if (document.body.scrollTop > 2600 || document.documentElement.scrollTop > 2600) {
+    document.getElementById("logo_liu").className="logo_liu1";
+  } else {
+    document.getElementById("logo_liu").className="logo_liu2";
+  }
+}
+
+</script>
+
+</html>

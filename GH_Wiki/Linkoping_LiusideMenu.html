@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<script>
+    myID=document.getElementByID("liusideMenu");
+
+    var myScrolFunc=function() {
+    var y = window.scrollY;
+    if(y>=45) {
+    myID.className="liusideMenu show"
+    } else {
+    myID.className = "liusideMenu hide"
+    }
+    };
+    window.addEventListener("scroll", myScrollFunc);
+</script>
+</html>

@@ -1,0 +1,99 @@
+<div class="slidecontainer">
+    <div class="slid1">
+        <img src="https://2019.igem.org/wiki/images/1/16/T--Linkoping Sweden--ikonekolv.png" alt="Lab icon">
+        <h3>In the Lab</h3>
+        <p>
+            "Our project focuses on creating cellulose wound dressings functionalized with antimicrobial agents. Read more about our idea and how we will see it done in the lab."
+        </p>
+        <button onclick="window.location.href='https://2019.igem.org/Team:Linkoping_Sweden/Description'">Read More</button>
+
+    </div>
+    <div class="slid2">
+        <img src="https://2019.igem.org/wiki/images/1/1e/T--Linkoping_Sweden--ikonhp2.png" alt="Human Practices Icon">
+        <h3>Human Practices</h3>
+        <p>
+            " Public opinion is highly valued within our group. HTerefore we have a human practice team that aims to reach out to other parts of the ommunity and people within the field to raise awareness and gain...READ MORE"
+        </p>
+        <button onclick=""window.location.href="'https://2019.igem.org/Team:Linkoping_Sweden/Human_Practices'">Read More</button>
+    </div>
+    <div class="slid3">
+        <img src="https://2019.igem.org/wiki/images/3/37/T--Linkoping_Weden--ikonteam.png" alt="Team Icon">
+        <h3>The Team</h3>
+        <p>
+            "We are a group of students from the university of Linkping who have joined together to compete in international competition in synthetic biology, iGEM."
+        </p>
+        <button onclick="window.location.href='https://2019.igem.org/Team:Linkoping_Sweden/Team'">Read More</button>
+    </div>
+    <div id="frontfootwrap" style="width:80%;margin:auto;">_</div>
+    <script>
+        myID = document.getElementById("liusideMenu");
+
+        var myScrolFunc = function() {
+        var y = window.scrollY;
+        if (y>= 45) {
+        myID.className="liusideMenu show"
+        } else {
+        myID.className = "liusideMenu hide"
+        }
+        };
+
+        window.addEventListener("scroll",myScrolFunc);
+        </script>
+    <script>
+        const navbarlogo=document.querySelector("#navbar2_liu);
+        const navlinks=document.querySelector(".nav-links_liu")
+
+        navbarlogo.addEventListener("click", ()=>
+        {navlinks.classList.toggle("open");});
+
+        var slideIndex=1;
+        showSlides(slideIndex);
+
+        //Next/previous controls
+        function plusSlides(n){
+        showSlides(slideIndex +=n);
+        }
+
+        //Thumbnail image controls
+        function plusSlides(slideIndex +=n);
+        }
+        function showSlides(n) {
+        showSlides(slideIndex = n);
+        }
+        function showSlides(n) {
+        var i;
+        var slides = document.getElementByClassName("mySlides_liu");
+        var dots = document.getElementsByClassName("dot_liu");
+        if(n > slides.length){slideIndex=1]
+        if(n < 1) {slideIndex = slides.length; i++) {
+        slides[i].style.display="none";
+        }
+        for(i=0;i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace("active"," ");
+        }
+        slides[slideIndex-1].style.display="block";
+        dots[slideIndex-1].className += "active";
+        }
+        window.onscroll=function() {myFunction()};
+
+        function myFunction() {
+        if (document.body.scrollTop > 2600 ||
+        document.documentElement.scrollTop > 2600) {
+        document.getElementById("logo_liu").className="logo_liu2";
+        }
+        }
+    </script>
+    <p></p>
+    <!--
+    NewPP limit report
+    CPU time usage: 0.012 seconds
+    Real time usage: 0.015 seconds
+    Preprocessor visited node count: 42/1000000
+    Preprocessor generated node count: 172/1000000
+    Post-exapand include size: 417/2097152 bytes
+    Template argument size: 0/2097152 bytes
+    Highest expansion depth: 3/40
+    Expensive parser function count: 0/100
+    --> == $0
+    <!-- Saved in parser cache with key 2019_igem_org:pcache:idhash:3639-0!*!*!*!*!*!* and timestamp 20200912124541 abd revision id 388863-->
+</div>
